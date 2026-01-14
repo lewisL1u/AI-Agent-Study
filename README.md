@@ -20,7 +20,7 @@ A whole workflow AI Agent Learning Journey
    3. LLMs: Large Language models
       1. BERT: By directional encoder representation from transformers
       2. BART: By directional and autoregressive transformers 
-      3. GPT:
+      3. GPT:  Text generation
       4. T5: Text to text transfer transformer
    4. RNNs: Recurrent neural networks, input,loop, output
    5. GANs: Generative adversarial networks, model for image/video generation
@@ -28,12 +28,18 @@ A whole workflow AI Agent Learning Journey
    7. DALL-E: Data analysis learning with language model for generation and exploration, image
 8. Models
    1. GANs: generator, Discriminator, competitive approach
-   2. VAEs: characteristics-base
+   2. VAEs: variational autoencoders, characteristics-base; operate on an encoder-decoder framework and create samples based on similar characteristics
    3. A diffusion model, based on statistical properties. removing nosie and reconstructing distorted data, high-quality image
-   4. RNNs: loop-based design, language model
+   4. RNNs: use sequential or time series data and a loop-based design, language model
    5. Transformers: self attention mechanism
    6. NLP: 
-   7. RLHF: reinforcement learning from human feedback 
+   7. RLHF: reinforcement learning from human feedback
+   8. WaveNet: natural-sounding speech
+   9. Generative AI: deep-learning models, which can generate content based on the training data.
+      1. understand the relationship between words and phrases and generate contextually relevant text
+      2. started with rule-based systems that use predefined linguistic rules, followed by machine-learning approaches focusing on statistical methods. 
+      3. It later moved to deep learning, which uses neural networks trained on extensive data sets.
+      4. Transformers represent the latest in this evolution.
 9. AI hallucinations
    1. AI hallucination can result in the generation of inaccurate information, the creation of biased views, and wrong input provided to sensitive applications.
    2. You can prevent the problems caused by AI hallucinations through:
