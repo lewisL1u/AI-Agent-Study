@@ -44,3 +44,23 @@ A whole workflow AI Agent Learning Journey
       5. Being vigilant,
       6. Ensuring human oversight, and
       7. Providing additional context in the prompt.
+10. Libraries and tools
+    1. PyTorch: Meta, dynamic computation graphs, deep learning
+    2. TensorFlow: Google, machine learning and deep learning
+       1. sentiment analysis, text classification, machine translation
+       2. TFX: ML deployment pipeline(defining, launching, monitoring)
+       3. Keras: high-level neural networks API
+    3. Hugging face: Open-source with pretrained models and tools, streamline, fine-tuning
+       1. The Model Hub: online platform with pretrained machine learning models
+       2. Transformers(library): pretrained models for text
+       3. Datasets(library): 
+       4. Tokenizers(library): needed models like BERT and GPT
+    4. LangChain: Open-source
+       1. Advanced prompt engineering, specific inputs used to guid the model's behavior.
+       2. Seamless integration with leading models
+          1. GPT
+       3. Application in NLP, ideal for creating tools: interactive chatbots & intricate analytical tools.
+    5. Pydantic: streamline data handling, uses Python-type annotations
+       1. Data validation: use BaseModel class to define data models and validations
+       2. Settings: application settings and env variables
+       3. Validating and managing data in NLP pipelines, ensures data integrity and consistency
