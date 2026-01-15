@@ -81,8 +81,14 @@ A whole workflow AI Agent Learning Journey
              1. the word piece: splitting and merging two symbols to ensure its decisions are valuable
              2. unigram: breaks text into smaller pieces. gradually narrowing down possibilities. 
              3. sentence piece algorithms: text into manageable parts and assigns unique IDs.
+                1. Unigram and SentencePiece work together by implementing Unigram's subword tokenization method within the SentencePiece framework.
+                   1. SentencePiece handles subword segmentation and ID assignment
+                   2. Unigram's principles guide the vocabulary reduction process to create a more efficient representation of the text data.
+                   3. This combination is particularly valuable for various NLP tasks in which subword tokenization can enhance the performance of language models
+             4. SentencePiece, WordPiece are commonly used for subword tokenization
+             5. Offers the advantage of representing a broader range of words and adapting to the specific language patterns within a text corpus
        4. How tokenizers convert raw text into model input.
-          1. 
+          1. by implementing Unigram's subword tokenization method within the SentencePiece framework. SentencePiece handles subword segmentation and ID assignment, while Unigram's principles guide the vocabulary reduction process to create a more efficient representation of the text data
        5. implement by using NLTK, spaCy, BertTokenizer, XLNetTokenizer
        6. Role of data loaders in the training pipeline
           1. how they batch, shuffle, and feed data to models
