@@ -90,3 +90,8 @@ A whole workflow AI Agent Learning Journey
        8. Key factors that contribute to data quality and diversity
        9. Tokenizer: breaks down text into individual tokens.
           1. NLTK and spaCy generate tokens
+          2. NLTK: text processing and analysis
+          3. spaCy: open-source library for advanced natural language processing. Speed and accuracy in processing large volumes of text data.
+          4. BertTokenizer: Hugging Face Transformers library for working with state-of-the-art pre-trained language models. for BERT models
+          5. XLNetTokenizer: Hugging Face Transformers library. For tokenizing text in alignment with the XLNet model's requirements.
+          6. torchtext:PyTorch ecosystem, various natural language processing tasks.Simplifies the process of working with text datda and provides functions for data preprocessing, tokenization, vocabulary management, and btaching.
