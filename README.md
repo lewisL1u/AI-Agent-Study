@@ -70,3 +70,23 @@ A whole workflow AI Agent Learning Journey
        1. Data validation: use BaseModel class to define data models and validations
        2. Settings: application settings and env variables
        3. Validating and managing data in NLP pipelines, ensures data integrity and consistency
+11. Tokenization: Process of breaking a sentence into smaller pieces, or tokens.
+    1. prepare data for training LLMs
+       1. Implement tokenization
+       2. Build data loaders
+       3. Tokenization methods
+          1. word based: preserve the semantic meaning but increases the model's vocabulary
+          2. character based: increases input dimensionality and computational needs
+          3. subword based: frequently used words can remain unsplit while infrequent words are broken down into meaningful sub words
+             1. the word piece: splitting and merging two symbols to ensure its decisions are valuable
+             2. unigram: breaks text into smaller pieces. gradually narrowing down possibilities. 
+             3. sentence piece algorithms: text into manageable parts and assigns unique IDs.
+       4. How tokenizers convert raw text into model input.
+          1. 
+       5. implement by using NLTK, spaCy, BertTokenizer, XLNetTokenizer
+       6. Role of data loaders in the training pipeline
+          1. how they batch, shuffle, and feed data to models
+       7. PyTorch.DataLoader
+       8. Key factors that contribute to data quality and diversity
+       9. Tokenizer: breaks down text into individual tokens.
+          1. NLTK and spaCy generate tokens
