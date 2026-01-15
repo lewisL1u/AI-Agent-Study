@@ -75,7 +75,7 @@ A whole workflow AI Agent Learning Journey
        1. Implement tokenization
        2. Build data loaders
        3. Tokenization methods
-          1. word based: preserve the semantic meaning but increases the model's vocabulary
+          1. word based: preserve the semantic meaning but increases the model's vocabulary, problem: words with similar meanings will be assigned different IDs, treated as entirely separate words with distinct meanings.
           2. character based: increases input dimensionality and computational needs
           3. subword based: frequently used words can remain unsplit while infrequent words are broken down into meaningful sub words
              1. the word piece: splitting and merging two symbols to ensure its decisions are valuable
